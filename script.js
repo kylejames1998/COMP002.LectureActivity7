@@ -11,7 +11,7 @@ form.addEventListener("submit", event => {
 });
 
 window.onload = function () {
-    favcolor.innerText = localStorage.getItem("favcolor")
+    favcolor.value = localStorage.getItem("color")
 };
 
  // favcolor.addEventListener("")
